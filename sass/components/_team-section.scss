@@ -1,0 +1,87 @@
+.team {
+    background: var(--third-background);
+}
+
+.team__list {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.team-member__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    background: var(--main-background);
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+.team-member {
+    background: var(--main-background);
+    margin-top: 0;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-member__description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    background: var(--main-background);
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.team-member__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+    background-color: var(--main-background);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.socials__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    fill: #AFB1B8;
+    background-color: var(--footer-links-background);
+    border-radius: 50%;
+    transition-property: fill, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+        fill: var(--third-text-color);
+        background-color: var(--accent-color);
+    }
+
+}
+

@@ -1,0 +1,33 @@
+.activity {
+    padding-top: 0;
+}
+
+.activity-list {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+
+}
+
+.activity-list__box {
+    position: relative;
+}
+
+.activity__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--third-text-color);
+    background: rgba(47, 48, 58, 0.8);
+
+}

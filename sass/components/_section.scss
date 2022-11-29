@@ -1,0 +1,55 @@
+.benefits,
+.activity-list,
+.list-team,
+.clients {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+
+}
+
+.activity,
+.benefits,
+.our-team {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+
+.main-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style-type: none;
+
+}
+
+a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+
+}
+
+.our-team {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+
+}
